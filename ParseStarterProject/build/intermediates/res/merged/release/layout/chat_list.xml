@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="47dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/online4"
+            android:layout_gravity="top"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView8"
+            android:layout_weight="0.96"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/bluerightarrow" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/Vinay/Desktop/projectMAD1/ParseStarterProject/src/main/res/layout/chat_list.xml -->

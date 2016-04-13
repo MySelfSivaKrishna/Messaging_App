@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fnameinEditing"
+        android:layout_marginTop="10dp"
+        android:text="@string/fnameInEditing" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/lnameInEditing"
+        android:ems="10"
+        android:id="@+id/lnameinEditing"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="39dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gender:"
+            android:id="@+id/textView3"
+            android:layout_weight="0.4" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male(off)/Female(on)"
+            android:id="@+id/genderinEditing"
+            android:layout_weight="0.20"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="35dp" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailinEditing"
+        android:layout_marginTop="10dp"
+        android:text="@string/emailInEditing" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/photoInEditing"
+        android:layout_marginTop="10dp"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="101dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:id="@+id/saveInEditing"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:id="@+id/cancelnEditing"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/Vinay/Desktop/projectMAD1/ParseStarterProject/src/main/res/layout/editing.xml -->

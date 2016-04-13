@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="464dp"
+        android:id="@+id/listView"
+        tools:listitem ="@layout/chat_received">
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:id="@+id/editText"
+            android:layout_weight="1.01"
+            android:hint="Type Message "
+            android:layout_gravity="bottom" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="53dp"
+            android:id="@+id/imageButton"
+            android:background="@drawable/ic_send_holo_light"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/Vinay/Desktop/projectMAD1/ParseStarterProject/src/main/res/layout/chat_layout.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="534dp"
+        android:id="@+id/listView2"
+
+
+        android:dividerHeight="2dp"
+        tools:listitem = "@layout/chat_list">
+        </ListView>
+</LinearLayout><!-- From: file:/C:/Users/Vinay/Desktop/projectMAD1/ParseStarterProject/src/main/res/layout/user_list.xml -->

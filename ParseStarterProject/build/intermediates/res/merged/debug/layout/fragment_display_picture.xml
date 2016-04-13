@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.parse.starter.displayPicture">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set your profile picture!"
+            android:id="@+id/saysSETdp"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/pictureInDisplayPicture"
+            android:src="@mipmap/default_avatar"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="(Click on the photo to select)"
+            android:id="@+id/saysClickonThePhoto"
+            android:textStyle="bold"
+            android:textSize="27dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:id="@+id/uploadInDisplayPicture"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/skipInDisplayPicture"
+            android:id="@+id/skipInDisplayPicture"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:autoText="false"
+            android:clickable="true"
+            />
+
+    </LinearLayout>
+</FrameLayout>
+<!-- From: file:/C:/Users/ssirigin/Downloads/projectMAD1/projectMAD1/ParseStarterProject/src/main/res/layout/fragment_display_picture.xml -->
